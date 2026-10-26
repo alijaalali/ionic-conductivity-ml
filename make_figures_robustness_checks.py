@@ -65,10 +65,10 @@ ax.set_title("Matched 321-entry structure-resolved subset, identical splits acro
              "coordination structure (C) does not reliably help and hurts under extrapolation")
 ax.legend(frameon=False, fontsize=7.5, loc="upper left")
 fig.tight_layout()
-save(fig, "fig4_tier_comparison_v2")
+save(fig, "fig4_tier_comparison")
 
 # =====================================================================
-# Figure: noise-floor reanalysis with CI (replaces figs1)
+# Figure: noise-floor reanalysis with CI
 # =====================================================================
 s2 = res["section2_noise_floor"]
 fig, ax = plt.subplots(figsize=(6.5, 4.6))
@@ -90,7 +90,7 @@ ax.set_title("Like-for-like noise-floor comparison (MAE vs.\\ MAD, RMSE vs.\\ RM
              f"95% CI on model MAE: [{s2['group_weighted_mean_mae_ci95'][0]:.2f}, "
              f"{s2['group_weighted_mean_mae_ci95'][1]:.2f}]")
 fig.tight_layout()
-save(fig, "figs1_duplicate_noise_v2")
+save(fig, "figs1_duplicate_noise")
 
 # =====================================================================
 # Figure: LGPS feature-space distance diagnostic

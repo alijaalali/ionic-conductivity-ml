@@ -23,7 +23,7 @@ Code, derived data, and result files for "Generalization and Uncertainty in Mach
 7. `supplementary_checks.py`: grouped bootstrap of the screening enrichment factors, numeric versus one-hot space-group encoding, nearest-neighbour distances for LGPS and comparison families.
 8. `make_figures.py`, `make_figures_robustness_checks.py`, `make_graphical_abstract.py`: figures of the manuscript and the Supporting Information.
 
-`run_all.sh` runs steps 2 to 8 (the data table is included). Random seeds are fixed (42); small differences in the last digit can occur across library versions.
+`run_all.sh` runs steps 2 to 8 (the data table is included). Tree counts of the point-estimate models: 300 by default, 500 for the full-dataset paper split, 200 for leave-one-duplicate-group-out in the tier comparison (see the `n_estimators` arguments in the scripts); the quantile models use 30 trees, depth 2, lambda 20. Random seeds are fixed (42); small differences in the last digit can occur across library versions.
 
 ## Requirements
 

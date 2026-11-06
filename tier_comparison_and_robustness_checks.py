@@ -225,7 +225,7 @@ for gid in dup_groups_full:
     if te_m.sum() < 2:
         continue
     tr_m = ~te_m
-    _, pred = fit_xgb(Xb_full, y_full, tr_m, te_m, n_estimators=200)  # tier B = current paper's "composition-only" (includes lattice)
+    _, pred = fit_xgb(Xb_full, y_full, tr_m, te_m, n_estimators=200)  # Tier B (composition plus lattice constants, space group, Z)
     err = np.abs(y_full[te_m] - pred)
     sqerr = np.square(y_full[te_m] - pred)
     group_maes.append(float(err.mean()))

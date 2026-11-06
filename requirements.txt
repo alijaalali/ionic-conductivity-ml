@@ -1,0 +1,12 @@
+numpy==2.4.6
+pandas==2.3.3
+pyarrow
+scipy==1.17.1
+scikit-learn==1.9.1
+xgboost==3.2.0
+matplotlib==3.11.1
+joblib
+# only needed to rebuild data/master_table.parquet with build_master_table.py:
+matminer==0.10.1
+pymatgen
+obelix-data

@@ -1,0 +1,384 @@
+{
+  "part0_feature_inventory": {
+    "tier_A_composition_only": {
+      "magpie": 132,
+      "total": 132
+    },
+    "tier_B_composition_plus_crystal": {
+      "magpie": 132,
+      "lattice_crystallographic": 8,
+      "lattice_cols_list": [
+        "a",
+        "b",
+        "c",
+        "alpha",
+        "beta",
+        "gamma",
+        "Space_group_number",
+        "Z"
+      ],
+      "total": 140
+    },
+    "tier_C_full": {
+      "magpie": 132,
+      "lattice_crystallographic": 8,
+      "structural_voronoi_coord": 128,
+      "total": 268
+    },
+    "missing_value_treatment": "per-column mean imputation, fit on training fold only in every protocol"
+  },
+  "part1_composition_overlap_dupgroups": {
+    "n_folds": 17,
+    "n_folds_with_composition_overlap": 1,
+    "detail": [
+      {
+        "group_id": "Li12.0P4.0O16.0|62",
+        "n_held_out": 2,
+        "held_out_compositions": [
+          "Li12.0P4.0O16.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li16.0Sn4.0Se16.0|62",
+        "n_held_out": 2,
+        "held_out_compositions": [
+          "Li16.0Sn4.0Se16.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li20.0Ge2.0P4.0S24.0|137",
+        "n_held_out": 3,
+        "held_out_compositions": [
+          "Li20.0Ge2.0P4.0S24.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li20.0Sn2.0P4.0S24.0|137",
+        "n_held_out": 3,
+        "held_out_compositions": [
+          "Li20.0Sn2.0P4.0S24.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li6.0Ge12.0P18.0O72.0|167",
+        "n_held_out": 2,
+        "held_out_compositions": [
+          "Li6.0Ge12.0P18.0O72.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li9.0Al3.0Ge9.0P18.0O72.0|167",
+        "n_held_out": 2,
+        "held_out_compositions": [
+          "Li9.0Al3.0Ge9.0P18.0O72.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li7.2Al1.2Ti10.8P18.0O72.0|167",
+        "n_held_out": 2,
+        "held_out_compositions": [
+          "Li7.2Al1.2Ti10.8P18.0O72.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li7.8Al1.8Ti10.2P18.0O72.0|167",
+        "n_held_out": 5,
+        "held_out_compositions": [
+          "Li7.8Al1.8Ti10.2P18.0O72.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li6.0Ti12.0P18.0O72.0|167",
+        "n_held_out": 2,
+        "held_out_compositions": [
+          "Li6.0Ti12.0P18.0O72.0"
+        ],
+        "n_overlapping_compositions_in_train": 1,
+        "overlapping_compositions": [
+          "Li6.0Ti12.0P18.0O72.0"
+        ]
+      },
+      {
+        "group_id": "Li24.0P4.0S20.0Cl4.0|216",
+        "n_held_out": 2,
+        "held_out_compositions": [
+          "Li24.0P4.0S20.0Cl4.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li24.0P4.0S20.0Br4.0|216",
+        "n_held_out": 4,
+        "held_out_compositions": [
+          "Li24.0P4.0S20.0Br4.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li24.0P4.0S20.0I4.0|216",
+        "n_held_out": 3,
+        "held_out_compositions": [
+          "Li24.0P4.0S20.0I4.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li40.0La24.0Ta16.0O96.0|230",
+        "n_held_out": 3,
+        "held_out_compositions": [
+          "Li40.0La24.0Ta16.0O96.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li48.0Ba8.0La16.0Ta16.0O96.0|230",
+        "n_held_out": 4,
+        "held_out_compositions": [
+          "Li48.0Ba8.0La16.0Ta16.0O96.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li52.0La24.0Zr12.0Ta4.0O96.0|230",
+        "n_held_out": 2,
+        "held_out_compositions": [
+          "Li52.0La24.0Zr12.0Ta4.0O96.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li40.0La24.0Sb16.0O96.0|230",
+        "n_held_out": 2,
+        "held_out_compositions": [
+          "Li40.0La24.0Sb16.0O96.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      },
+      {
+        "group_id": "Li48.0Ca8.0La16.0Ta16.0O96.0|230",
+        "n_held_out": 2,
+        "held_out_compositions": [
+          "Li48.0Ca8.0La16.0Ta16.0O96.0"
+        ],
+        "n_overlapping_compositions_in_train": 0,
+        "overlapping_compositions": []
+      }
+    ]
+  },
+  "part2_foldspecific_feature_selection": {
+    "B_plus_top10_struct_foldspecific": {
+      "paper_split": 2.5182744259429892,
+      "leave_one_family_out": 5.332885502595115,
+      "leave_one_space_group_out": 2.7767814659193077,
+      "leave_one_duplicate_group_out": 0.7243073361256062
+    },
+    "B_plus_top20_struct_foldspecific": {
+      "paper_split": 2.539920912260116,
+      "leave_one_family_out": 5.045420347941732,
+      "leave_one_space_group_out": 2.7918100328869784,
+      "leave_one_duplicate_group_out": 0.7733064392237923
+    }
+  },
+  "part3_group_level_bootstrap": {
+    "paper_split": {
+      "n_clusters": 17,
+      "mean_diff_C_minus_B": -0.3071012066077909,
+      "group_bootstrap_ci95": [
+        -1.1542317628016836,
+        0.4331504900448846
+      ],
+      "significant_at_group_level": false
+    },
+    "leave_one_family_out": {
+      "n_clusters": 9,
+      "mean_diff_C_minus_B": -0.09749207203159241,
+      "group_bootstrap_ci95": [
+        -0.6778150089015319,
+        0.3365270518996823
+      ],
+      "significant_at_group_level": false
+    },
+    "leave_one_space_group_out": {
+      "n_clusters": 11,
+      "mean_diff_C_minus_B": 0.42183622431642437,
+      "group_bootstrap_ci95": [
+        -0.5263067854141307,
+        1.5515671423378954
+      ],
+      "significant_at_group_level": false
+    },
+    "leave_one_duplicate_group_out": {
+      "n_clusters": 17,
+      "mean_diff_C_minus_B": 0.13661493370370897,
+      "group_bootstrap_ci95": [
+        0.014414185869303943,
+        0.27403637716162726
+      ],
+      "significant_at_group_level": true
+    }
+  },
+  "part4_screening_metrics": {
+    "n_test": 121,
+    "spearman_rho": 0.68306221727185,
+    "spearman_p": 6.1051389085141486e-18,
+    "by_threshold": {
+      "top_10pct": {
+        "k": 12,
+        "overlap": 1,
+        "precision": 0.08333333333333333,
+        "recall": 0.08333333333333333,
+        "enrichment_factor_vs_chance": 0.8402777777777777
+      },
+      "top_20pct": {
+        "k": 24,
+        "overlap": 9,
+        "precision": 0.375,
+        "recall": 0.375,
+        "enrichment_factor_vs_chance": 1.890625
+      },
+      "top_30pct": {
+        "k": 36,
+        "overlap": 20,
+        "precision": 0.5555555555555556,
+        "recall": 0.5555555555555556,
+        "enrichment_factor_vs_chance": 1.867283950617284
+      }
+    }
+  },
+  "part5_missingness_indicator": {
+    "paper_split": {
+      "tierC_mae": 2.3838094438432362,
+      "tierC_plus_missingflag_mae": 2.298511448279935
+    },
+    "leave_one_family_out": {
+      "tierC_mae": 5.2558519310170375,
+      "tierC_plus_missingflag_mae": 5.1006738556276945
+    },
+    "leave_one_space_group_out": {
+      "tierC_mae": 3.137953964996416,
+      "tierC_plus_missingflag_mae": 3.0930510708655
+    },
+    "leave_one_duplicate_group_out": {
+      "tierC_mae": 0.8870404111786507,
+      "tierC_plus_missingflag_mae": 0.8564698483244831
+    }
+  },
+  "part6_nested_hyperparam_selection": {
+    "B_composition_plus_crystal": {
+      "paper_split": {
+        "mae_fixed_default": 2.6909106504510265,
+        "mae_training_fold_tuned": 2.6909106504510265,
+        "n_folds_tuned": 1
+      },
+      "leave_one_family_out": {
+        "mae_fixed_default": 5.35334400304863,
+        "mae_training_fold_tuned": 5.353959953739005,
+        "n_folds_tuned": 9
+      },
+      "leave_one_space_group_out": {
+        "mae_fixed_default": 2.7161177406799917,
+        "mae_training_fold_tuned": 2.615516531349,
+        "n_folds_tuned": 11
+      },
+      "leave_one_duplicate_group_out": {
+        "mae_fixed_default": 0.7504254774749417,
+        "mae_training_fold_tuned": 0.6967807333893689,
+        "n_folds_tuned": 17
+      }
+    },
+    "C_composition_crystal_voronoi": {
+      "paper_split": {
+        "mae_fixed_default": 2.3838094438432362,
+        "mae_training_fold_tuned": 2.3838094438432362,
+        "n_folds_tuned": 1
+      },
+      "leave_one_family_out": {
+        "mae_fixed_default": 5.2558519310170375,
+        "mae_training_fold_tuned": 5.145475640430162,
+        "n_folds_tuned": 9
+      },
+      "leave_one_space_group_out": {
+        "mae_fixed_default": 3.137953964996416,
+        "mae_training_fold_tuned": 2.8859810504400434,
+        "n_folds_tuned": 11
+      },
+      "leave_one_duplicate_group_out": {
+        "mae_fixed_default": 0.8870404111786507,
+        "mae_training_fold_tuned": 0.9509608869291009,
+        "n_folds_tuned": 17
+      }
+    }
+  },
+  "part6b_tuned_tierB_vs_tierC": {
+    "paper_split": {
+      "tuned_mae_B": 2.6909106504510265,
+      "tuned_mae_C": 2.3838094438432362,
+      "tuned_diff_C_minus_B": -0.3071012066077903
+    },
+    "leave_one_family_out": {
+      "tuned_mae_B": 5.353959953739005,
+      "tuned_mae_C": 5.145475640430162,
+      "tuned_diff_C_minus_B": -0.2084843133088432
+    },
+    "leave_one_space_group_out": {
+      "tuned_mae_B": 2.615516531349,
+      "tuned_mae_C": 2.8859810504400434,
+      "tuned_diff_C_minus_B": 0.2704645190910435
+    },
+    "leave_one_duplicate_group_out": {
+      "tuned_mae_B": 0.6967807333893689,
+      "tuned_mae_C": 0.9509608869291009,
+      "tuned_diff_C_minus_B": 0.254180153539732
+    }
+  },
+  "part7_high_error_material_comparison": {
+    "grouped_cv_mean_mae": 0.9927896406949942,
+    "fixed_split_mean_mae": 1.6215448184895198,
+    "grouped_cv_family_share_of_top15_err": {
+      "oxides": 0.133,
+      "phosphates": 0.133,
+      "perovskites": 0.133,
+      "halides": 0.067,
+      "fluorooxoborate": 0.067,
+      "Lanthanumlithiumoxide": 0.067,
+      "molybdates": 0.067,
+      "pyrophosphate": 0.067,
+      "boracites": 0.067,
+      "Borophosphates": 0.067,
+      "Tavorite": 0.067,
+      "sugilites": 0.067
+    },
+    "fixed_split_family_share_of_top15_err": {
+      "perovskites": 0.6,
+      "Lanthanumlithiumoxide": 0.067,
+      "oxides": 0.067,
+      "Borophosphates": 0.067,
+      "Halide": 0.067,
+      "sulfides": 0.067,
+      "molybdates": 0.067
+    }
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "part1_tierB_vs_tierC_paired": {
+    "paper_split": {
+      "n": 67,
+      "mae_B": 2.6909106504510265,
+      "mae_C": 2.3838094438432362,
+      "mean_diff_C_minus_B": -0.3071012066077909,
+      "diff_ci95": [
+        -0.6745523112328586,
+        0.05415968529080233
+      ]
+    },
+    "leave_one_family_out": {
+      "n": 225,
+      "mae_B": 5.35334400304863,
+      "mae_C": 5.2558519310170375,
+      "mean_diff_C_minus_B": -0.09749207203159241,
+      "diff_ci95": [
+        -0.26668277353740827,
+        0.06548031080685844
+      ]
+    },
+    "leave_one_space_group_out": {
+      "n": 234,
+      "mae_B": 2.7161177406799917,
+      "mae_C": 3.137953964996416,
+      "mean_diff_C_minus_B": 0.42183622431642437,
+      "diff_ci95": [
+        0.1397327007111247,
+        0.7047168567049
+      ]
+    },
+    "leave_one_duplicate_group_out": {
+      "n": 45,
+      "mae_B": 0.7504254774749417,
+      "mae_C": 0.8870404111786507,
+      "mean_diff_C_minus_B": 0.13661493370370897,
+      "diff_ci95": [
+        0.008248910212475778,
+        0.27223474773432355
+      ]
+    }
+  },
+  "part2_feature_selection": {
+    "top20_struct_features": [
+      [
+        "cell_volume",
+        0.06110204756259918
+      ],
+      [
+        "li_voro_Symmetry_index_9_mean",
+        0.033615920692682266
+      ],
+      [
+        "n_sites",
+        0.03216716647148132
+      ],
+      [
+        "li_voro_Voro_index_9_mean",
+        0.024219678714871407
+      ],
+      [
+        "li_voro_Symmetry_index_6_mean",
+        0.0235824566334486
+      ],
+      [
+        "li_voro_Voro_index_10_mean",
+        0.01749609410762787
+      ],
+      [
+        "li_voro_Symmetry_index_10_mean",
+        0.01570959948003292
+      ],
+      [
+        "li_coord_num_std",
+        0.015171031467616558
+      ],
+      [
+        "li_voro_Voro_vol_mean_mean",
+        0.013613270595669746
+      ],
+      [
+        "li_voro_Voro_vol_sum_mean",
+        0.012850330211222172
+      ],
+      [
+        "all_voro_Symmetry_index_10_mean",
+        0.01106959767639637
+      ],
+      [
+        "li_voro_Symmetry_index_3_std",
+        0.011029508896172047
+      ],
+      [
+        "li_voro_Voro_dist_minimum_mean",
+        0.009418725036084652
+      ],
+      [
+        "li_voro_Symmetry_index_5_mean",
+        0.009121036157011986
+      ],
+      [
+        "all_voro_Voro_area_std_dev_mean",
+        0.007605239748954773
+      ],
+      [
+        "all_voro_Symmetry_index_10_std",
+        0.007117649540305138
+      ],
+      [
+        "li_voro_Voro_index_6_mean",
+        0.006559544242918491
+      ],
+      [
+        "all_coord_num_std",
+        0.005718077998608351
+      ],
+      [
+        "all_voro_Voro_vol_maximum_mean",
+        0.005542605649679899
+      ],
+      [
+        "li_voro_Voro_index_4_std",
+        0.005313423927873373
+      ]
+    ],
+    "B_plus_top10_struct": {
+      "paper_split": 2.558941311884501,
+      "leave_one_family_out": 5.165143943866157,
+      "leave_one_space_group_out": 2.698613724354688,
+      "leave_one_duplicate_group_out": 0.7635139063850501
+    },
+    "B_plus_top20_struct": {
+      "paper_split": 2.511880975821259,
+      "leave_one_family_out": 5.165303634632594,
+      "leave_one_space_group_out": 2.7974073400773745,
+      "leave_one_duplicate_group_out": 0.7948640579783665
+    }
+  },
+  "part3_tierC_hyperparam_sensitivity": {
+    "n300_d5_l1.0": {
+      "config": {
+        "n_estimators": 300,
+        "max_depth": 5,
+        "reg_lambda": 1.0
+      },
+      "mae_by_protocol": {
+        "paper_split": 2.3838094438432362,
+        "leave_one_family_out": 5.2558519310170375,
+        "leave_one_space_group_out": 3.137953964996416,
+        "leave_one_duplicate_group_out": 0.8809369829737963
+      }
+    },
+    "n300_d3_l1.0": {
+      "config": {
+        "n_estimators": 300,
+        "max_depth": 3,
+        "reg_lambda": 1.0
+      },
+      "mae_by_protocol": {
+        "paper_split": 2.4304150665139215,
+        "leave_one_family_out": 5.1548093650296485,
+        "leave_one_space_group_out": 3.0287378717844704,
+        "leave_one_duplicate_group_out": 0.9324746972986143
+      }
+    },
+    "n150_d3_l5.0": {
+      "config": {
+        "n_estimators": 150,
+        "max_depth": 3,
+        "reg_lambda": 5.0
+      },
+      "mae_by_protocol": {
+        "paper_split": 2.3096164907219614,
+        "leave_one_family_out": 5.041595336729398,
+        "leave_one_space_group_out": 2.975775596332533,
+        "leave_one_duplicate_group_out": 0.9745298158131498
+      }
+    },
+    "n150_d2_l10.0": {
+      "config": {
+        "n_estimators": 150,
+        "max_depth": 2,
+        "reg_lambda": 10.0
+      },
+      "mae_by_protocol": {
+        "paper_split": 2.3010127648506757,
+        "leave_one_family_out": 4.847246136507757,
+        "leave_one_space_group_out": 3.0746967474039026,
+        "leave_one_duplicate_group_out": 1.1159959129904282
+      }
+    },
+    "n500_d3_l3.0": {
+      "config": {
+        "n_estimators": 500,
+        "max_depth": 3,
+        "reg_lambda": 3.0
+      },
+      "mae_by_protocol": {
+        "paper_split": 2.433207456735493,
+        "leave_one_family_out": 5.088796035581936,
+        "leave_one_space_group_out": 2.901194255138039,
+        "leave_one_duplicate_group_out": 0.9136659098699037
+      }
+    }
+  },
+  "part4_cv_vs_fixed_distribution": {
+    "fixed_split_test": {
+      "n_test": 121,
+      "target_mean": -5.437829641047731,
+      "target_std": 3.3485095065122934,
+      "target_min": -17.356547323513812,
+      "target_max": -1.6020599913279623,
+      "n_censored": 8,
+      "family_share": {
+        "perovskites": 0.368,
+        "garnet": 0.217,
+        "thio-LISICON": 0.085,
+        "sulfides": 0.038,
+        "oxides": 0.038,
+        "NASICON": 0.028,
+        "molybdates": 0.028,
+        "Lanthanumlithiumoxide": 0.028,
+        "LISICON": 0.028,
+        "halides": 0.028,
+        "argyrodites": 0.028,
+        "Borophosphates": 0.019,
+        "thio-phosphate": 0.019,
+        "Halide": 0.009,
+        "Chalcogenidotetrelates": 0.009,
+        "silicates": 0.009,
+        "nitrides": 0.009,
+        "antiperovskite": 0.009
+      }
+    },
+    "grouped_cv_fold_summaries": [
+      {
+        "fold": 0,
+        "n_test": 120,
+        "target_mean": -5.740758431386372,
+        "target_std": 3.8203035112748114,
+        "target_min": -17.3767507096021,
+        "target_max": -1.609064892896621,
+        "n_censored": 9,
+        "family_share": {
+          "NASICON": 0.25,
+          "garnet": 0.143,
+          "argyrodites": 0.116,
+          "perovskites": 0.116,
+          "LISICON": 0.071,
+          "LGPS": 0.071,
+          "thio-LISICON": 0.054,
+          "sulfides": 0.027,
+          "oxides": 0.027,
+          "phosphates": 0.018,
+          "thio-phosphate": 0.018,
+          "LIPON": 0.009,
+          "Borophosphates": 0.009,
+          "molybdates": 0.009,
+          "halides": 0.009,
+          "nitrides": 0.009,
+          "fluorophosphates": 0.009,
+          "cholorides": 0.009,
+          "antiperovskite": 0.009,
+          "chlorides": 0.009,
+          "pyrochlore": 0.009
+        }
+      },
+      {
+        "fold": 1,
+        "n_test": 120,
+        "target_mean": -5.339984771455923,
+        "target_std": 3.2676337443727443,
+        "target_min": -15.0,
+        "target_max": -2.0560111249262283,
+        "n_censored": 8,
+        "family_share": {
+          "garnet": 0.241,
+          "NASICON": 0.216,
+          "perovskites": 0.121,
+          "LGPS": 0.078,
+          "oxides": 0.069,
+          "argyrodites": 0.069,
+          "thio-LISICON": 0.043,
+          "LISICON": 0.026,
+          "sulfides": 0.017,
+          "phosphates": 0.017,
+          "Borophosphates": 0.009,
+          "diphosphate": 0.009,
+          "hexaoxometalates": 0.009,
+          "Tavorite": 0.009,
+          "Chalcogenidotetrelates": 0.009,
+          "fluorooxoborate": 0.009,
+          "halides": 0.009,
+          "nitrides": 0.009,
+          "boracites": 0.009,
+          "chlorides": 0.009,
+          "pyrochlore": 0.009,
+          "garnet-like": 0.009
+        }
+      },
+      {
+        "fold": 2,
+        "n_test": 120,
+        "target_mean": -5.477987367177708,
+        "target_std": 3.387691512758762,
+        "target_min": -17.255707016877324,
+        "target_max": -1.6020599913279623,
+        "n_censored": 7,
+        "family_share": {
+          "NASICON": 0.217,
+          "garnet": 0.157,
+          "argyrodites": 0.13,
+          "perovskites": 0.122,
+          "oxides": 0.052,
+          "thio-LISICON": 0.043,
+          "LISICON": 0.043,
+          "LGPS": 0.035,
+          "halides": 0.035,
+          "phosphates": 0.026,
+          "antiperovskite": 0.017,
+          "molybdates": 0.017,
+          "hexaoxometalates": 0.009,
+          "Lanthanumlithiumoxide": 0.009,
+          "layered": 0.009,
+          "Halide": 0.009,
+          "hydrides": 0.009,
+          "Chalcogenidotetrelates": 0.009,
+          "zirconates": 0.009,
+          "nitride": 0.009,
+          "sugilites": 0.009,
+          "sulfides": 0.009,
+          "boron nitride": 0.009,
+          "pyrochlore": 0.009
+        }
+      },
+      {
+        "fold": 3,
+        "n_test": 120,
+        "target_mean": -5.16101766954942,
+        "target_std": 3.0854210987444635,
+        "target_min": -16.796203144042632,
+        "target_max": -2.065501548756432,
+        "n_censored": 6,
+        "family_share": {
+          "NASICON": 0.236,
+          "garnet": 0.209,
+          "perovskites": 0.127,
+          "LGPS": 0.073,
+          "argyrodites": 0.064,
+          "thio-LISICON": 0.045,
+          "oxides": 0.036,
+          "sulfides": 0.036,
+          "LISICON": 0.027,
+          "phosphates": 0.027,
+          "halides": 0.027,
+          "molybdates": 0.018,
+          "pyrochlore": 0.018,
+          "Lanthanumlithiumoxide": 0.009,
+          "pyrophosphate": 0.009,
+          "nitridosilicates": 0.009,
+          "argyrodite": 0.009,
+          "thio-phosphate": 0.009,
+          "antiperovskite": 0.009
+        }
+      },
+      {
+        "fold": 4,
+        "n_test": 119,
+        "target_mean": -5.46206603574234,
+        "target_std": 3.32964200157019,
+        "target_min": -15.0,
+        "target_max": -1.85078088734462,
+        "n_censored": 7,
+        "family_share": {
+          "NASICON": 0.265,
+          "garnet": 0.177,
+          "perovskites": 0.115,
+          "argyrodites": 0.08,
+          "oxides": 0.071,
+          "LGPS": 0.062,
+          "thio-LISICON": 0.044,
+          "LISICON": 0.044,
+          "chlorides": 0.027,
+          "hydrides": 0.018,
+          "copper pyroborate": 0.009,
+          "Lanthanumlithiumoxide": 0.009,
+          "fluorides": 0.009,
+          "sulfides": 0.009,
+          "molybdates": 0.009,
+          "boron nitride": 0.009,
+          "thio-phosphate": 0.009,
+          "nitrides": 0.009,
+          "silicates": 0.009,
+          "pyrochlore": 0.009,
+          "garnet-like": 0.009
+        }
+      }
+    ]
+  },
+  "part5_ranking_metrics": {
+    "n_test": 121,
+    "spearman_rho": 0.68306221727185,
+    "spearman_p": 6.1051389085141486e-18,
+    "top_k": 12,
+    "top10pct_enrichment_fraction": 0.08333333333333333
+  },
+  "part6_lgps_alt_distance": {
+    "euclidean": {
+      "LGPS": {
+        "median_nn_distance": 1.1180722747663556,
+        "n": 36
+      },
+      "thio-LISICON": {
+        "median_nn_distance": 5.979360681172792,
+        "n": 26
+      }
+    },
+    "cosine": {
+      "LGPS": {
+        "median_nn_distance": 0.00644564859816027,
+        "n": 36
+      },
+      "thio-LISICON": {
+        "median_nn_distance": 0.1082385828960507,
+        "n": 26
+      }
+    },
+    "cityblock": {
+      "LGPS": {
+        "median_nn_distance": 2.486415828606262,
+        "n": 36
+      },
+      "thio-LISICON": {
+        "median_nn_distance": 15.699009161410887,
+        "n": 26
+      }
+    },
+    "pca_explained_variance_ratio": [
+      0.3002346934260892,
+      0.15944929810681382
+    ]
+  },
+  "part7_quantile_pinball_sweep": [
+    {
+      "n_estimators": 30,
+      "max_depth": 2,
+      "reg_lambda": 20.0,
+      "val_coverage": 0.8202247191011236,
+      "val_abs_dev_from_80": 0.020224719101123556,
+      "val_mean_interval_width": 4.530008316040039,
+      "val_pinball_q10": 0.3537831320682264,
+      "val_pinball_q90": 0.22012213896199612,
+      "val_pinball_mean": 0.2869526355151113
+    },
+    {
+      "n_estimators": 30,
+      "max_depth": 2,
+      "reg_lambda": 10.0,
+      "val_coverage": 0.8314606741573034,
+      "val_abs_dev_from_80": 0.03146067415730336,
+      "val_mean_interval_width": 4.571896076202393,
+      "val_pinball_q10": 0.35749951676304376,
+      "val_pinball_q90": 0.2206912912010041,
+      "val_pinball_mean": 0.28909540398202394
+    },
+    {
+      "n_estimators": 50,
+      "max_depth": 2,
+      "reg_lambda": 20.0,
+      "val_coverage": 0.7752808988764045,
+      "val_abs_dev_from_80": 0.024719101123595544,
+      "val_mean_interval_width": 4.144674777984619,
+      "val_pinball_q10": 0.3447656181767072,
+      "val_pinball_q90": 0.2085867806302899,
+      "val_pinball_mean": 0.2766761994034985
+    },
+    {
+      "n_estimators": 30,
+      "max_depth": 3,
+      "reg_lambda": 20.0,
+      "val_coverage": 0.8314606741573034,
+      "val_abs_dev_from_80": 0.03146067415730336,
+      "val_mean_interval_width": 4.3916215896606445,
+      "val_pinball_q10": 0.3488659476457013,
+      "val_pinball_q90": 0.21742948695634276,
+      "val_pinball_mean": 0.283147717301022
+    },
+    {
+      "n_estimators": 100,
+      "max_depth": 2,
+      "reg_lambda": 30.0,
+      "val_coverage": 0.7415730337078652,
+      "val_abs_dev_from_80": 0.05842696629213484,
+      "val_mean_interval_width": 3.589601993560791,
+      "val_pinball_q10": 0.3055044141522621,
+      "val_pinball_q90": 0.1893865465186607,
+      "val_pinball_mean": 0.24744548033546138
+    }
+  ]
+}

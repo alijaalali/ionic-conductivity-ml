@@ -1,0 +1,38 @@
+{
+  "A_composition_only": {
+    "paper_split": {
+      "pooled_mae": 2.150199848868826,
+      "n": 52
+    },
+    "leave_one_family_out": {
+      "pooled_mae": 5.630885161958999,
+      "n": 139
+    },
+    "leave_one_space_group_out": {
+      "pooled_mae": 2.6097209831313766,
+      "n": 155
+    },
+    "leave_one_duplicate_group_out": {
+      "pooled_mae": 0.899565754474301,
+      "n": 32
+    }
+  },
+  "C_composition_crystal_voronoi": {
+    "paper_split": {
+      "pooled_mae": 2.293717174321764,
+      "n": 52
+    },
+    "leave_one_family_out": {
+      "pooled_mae": 5.466503138904644,
+      "n": 139
+    },
+    "leave_one_space_group_out": {
+      "pooled_mae": 3.1699363834319514,
+      "n": 155
+    },
+    "leave_one_duplicate_group_out": {
+      "pooled_mae": 1.0564035270906902,
+      "n": 32
+    }
+  }
+}

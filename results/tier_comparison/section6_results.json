@@ -1,0 +1,12 @@
+{
+  "LGPS": {
+    "n": 36,
+    "median_nn_distance_to_rest": 1.1180722747663556,
+    "mean_nn_distance_to_rest": 2.1381708370881616
+  },
+  "thio-LISICON": {
+    "n": 26,
+    "median_nn_distance_to_rest": 5.979360681172792,
+    "mean_nn_distance_to_rest": 5.672644459947649
+  }
+}

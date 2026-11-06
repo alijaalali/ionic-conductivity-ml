@@ -1,0 +1,144 @@
+{
+  "sweep": [
+    {
+      "n_estimators": 30,
+      "max_depth": 2,
+      "reg_lambda": 20.0,
+      "val_coverage": 0.8202247191011236,
+      "val_abs_dev_from_80": 0.020224719101123556
+    },
+    {
+      "n_estimators": 30,
+      "max_depth": 2,
+      "reg_lambda": 10.0,
+      "val_coverage": 0.8314606741573034,
+      "val_abs_dev_from_80": 0.03146067415730336
+    },
+    {
+      "n_estimators": 50,
+      "max_depth": 2,
+      "reg_lambda": 20.0,
+      "val_coverage": 0.7752808988764045,
+      "val_abs_dev_from_80": 0.024719101123595544
+    },
+    {
+      "n_estimators": 30,
+      "max_depth": 3,
+      "reg_lambda": 20.0,
+      "val_coverage": 0.8314606741573034,
+      "val_abs_dev_from_80": 0.03146067415730336
+    },
+    {
+      "n_estimators": 100,
+      "max_depth": 2,
+      "reg_lambda": 30.0,
+      "val_coverage": 0.7415730337078652,
+      "val_abs_dev_from_80": 0.05842696629213484
+    }
+  ],
+  "selected_config": {
+    "n_estimators": 30,
+    "max_depth": 2,
+    "reg_lambda": 20.0
+  },
+  "validation_selected_paper_split_coverage": 0.8230088495575221,
+  "n_quantile_crossings_on_test": 0,
+  "mean_interval_width": 5.115705490112305,
+  "mean_interval_score": 6.281695998937996,
+  "coverage_by_conductivity_range": {
+    "bin_0_[-17.36,-5.49]": {
+      "n": 29,
+      "coverage": 0.7586206896551724,
+      "ci95": [
+        0.5862068965517241,
+        0.896551724137931
+      ]
+    },
+    "bin_1_[-5.49,-4.12]": {
+      "n": 29,
+      "coverage": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "bin_2_[-4.12,-3.21]": {
+      "n": 29,
+      "coverage": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "bin_3_[-3.21,-1.60]": {
+      "n": 29,
+      "coverage": 0.5517241379310345,
+      "ci95": [
+        0.3793103448275862,
+        0.7241379310344828
+      ]
+    }
+  },
+  "coverage_by_family": {
+    "NASICON": {
+      "n": 133,
+      "coverage": 0.9473684210526315,
+      "mean_width": 9.388046264648438,
+      "n_crossed": 0
+    },
+    "garnet": {
+      "n": 104,
+      "coverage": 0.9711538461538461,
+      "mean_width": 4.779609680175781,
+      "n_crossed": 0
+    },
+    "perovskites": {
+      "n": 63,
+      "coverage": 0.7936507936507936,
+      "mean_width": 7.26323127746582,
+      "n_crossed": 0
+    },
+    "argyrodites": {
+      "n": 52,
+      "coverage": 0.34615384615384615,
+      "mean_width": 4.852508068084717,
+      "n_crossed": 0
+    },
+    "LGPS": {
+      "n": 36,
+      "coverage": 0.16666666666666666,
+      "mean_width": 3.8997421264648438,
+      "n_crossed": 0
+    },
+    "thio-LISICON": {
+      "n": 26,
+      "coverage": 0.9615384615384616,
+      "mean_width": 6.584212779998779,
+      "n_crossed": 0
+    },
+    "LISICON": {
+      "n": 24,
+      "coverage": 0.625,
+      "mean_width": 7.711897373199463,
+      "n_crossed": 0
+    },
+    "oxides": {
+      "n": 18,
+      "coverage": 0.3888888888888889,
+      "mean_width": 4.976973056793213,
+      "n_crossed": 0
+    },
+    "sulfides": {
+      "n": 11,
+      "coverage": 0.9090909090909091,
+      "mean_width": 6.096276760101318,
+      "n_crossed": 0
+    },
+    "halides": {
+      "n": 8,
+      "coverage": 0.625,
+      "mean_width": 5.536442756652832,
+      "n_crossed": 0
+    }
+  }
+}

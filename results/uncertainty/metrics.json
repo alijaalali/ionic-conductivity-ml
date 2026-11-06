@@ -1,0 +1,418 @@
+{
+  "paper_split": {
+    "n_test": 113,
+    "mean_width": 5.115705490112305,
+    "median_width": 4.880078315734863,
+    "empirical_coverage": 0.8230088495575221
+  },
+  "leave_one_family_out": {
+    "NASICON": {
+      "n_test": 133,
+      "mean_width": 9.388046264648438,
+      "median_width": 9.835558891296387,
+      "empirical_coverage": 0.9473684210526315
+    },
+    "garnet": {
+      "n_test": 104,
+      "mean_width": 4.779609680175781,
+      "median_width": 4.784489154815674,
+      "empirical_coverage": 0.9711538461538461
+    },
+    "perovskites": {
+      "n_test": 63,
+      "mean_width": 7.26323127746582,
+      "median_width": 7.588022232055664,
+      "empirical_coverage": 0.7936507936507936
+    },
+    "argyrodites": {
+      "n_test": 52,
+      "mean_width": 4.852508068084717,
+      "median_width": 4.928851127624512,
+      "empirical_coverage": 0.34615384615384615
+    },
+    "LGPS": {
+      "n_test": 36,
+      "mean_width": 3.8997421264648438,
+      "median_width": 3.9061107635498047,
+      "empirical_coverage": 0.16666666666666666
+    },
+    "thio-LISICON": {
+      "n_test": 26,
+      "mean_width": 6.584212779998779,
+      "median_width": 6.673495292663574,
+      "empirical_coverage": 0.9615384615384616
+    },
+    "LISICON": {
+      "n_test": 24,
+      "mean_width": 7.711897373199463,
+      "median_width": 7.5224456787109375,
+      "empirical_coverage": 0.625
+    },
+    "oxides": {
+      "n_test": 18,
+      "mean_width": 4.976973056793213,
+      "median_width": 5.341967582702637,
+      "empirical_coverage": 0.3888888888888889
+    },
+    "sulfides": {
+      "n_test": 11,
+      "mean_width": 6.096276760101318,
+      "median_width": 5.277825355529785,
+      "empirical_coverage": 0.9090909090909091
+    },
+    "halides": {
+      "n_test": 8,
+      "mean_width": 5.536442756652832,
+      "median_width": 5.7213287353515625,
+      "empirical_coverage": 0.625
+    }
+  },
+  "duplicate_group_summary": {
+    "n_groups_tested": 48,
+    "mean_interval_width": 3.7882954676946006,
+    "median_interval_width": 3.463662624359131,
+    "mean_coverage": 0.8701388888888889,
+    "paper_noise_rmsd": 0.63,
+    "paper_noise_mad": 0.41,
+    "note": "If mean_interval_width is comparable to 2x the paper's noise RMSD/MAD, the model's uncertainty band is consistent with irreducible measurement noise rather than being systematically over- or under-confident."
+  },
+  "duplicate_group_detail": {
+    "Li14.0P6.0S22.0|2": {
+      "n_test": 2,
+      "mean_width": 6.24873685836792,
+      "median_width": 6.24873685836792,
+      "empirical_coverage": 0.0,
+      "point_mae_proxy": 3.5440935095205064
+    },
+    "Li12.0P4.0O16.0|62": {
+      "n_test": 2,
+      "mean_width": 8.776297569274902,
+      "median_width": 8.776297569274902,
+      "empirical_coverage": 0.0,
+      "point_mae_proxy": 7.851474231306291
+    },
+    "Li16.0Sn4.0Se16.0|62": {
+      "n_test": 2,
+      "mean_width": 5.348706245422363,
+      "median_width": 5.348706245422363,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.3239087409443187
+    },
+    "La1.12Li0.66Ti2.0O6.0|123": {
+      "n_test": 2,
+      "mean_width": 4.426532745361328,
+      "median_width": 4.426532745361328,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.6963535538696284
+    },
+    "Li20.0Ge2.0P4.0S24.0|137": {
+      "n_test": 5,
+      "mean_width": 3.999316692352295,
+      "median_width": 3.999316692352295,
+      "empirical_coverage": 0.4,
+      "point_mae_proxy": 2.0123298858160013
+    },
+    "Li20.7Si2.7P3.3S24.0|137": {
+      "n_test": 2,
+      "mean_width": 3.9498157501220703,
+      "median_width": 3.9498157501220703,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.9352699088281917
+    },
+    "Li19.62Sn1.62P4.38S24.0|137": {
+      "n_test": 2,
+      "mean_width": 3.854300022125244,
+      "median_width": 3.854300022125244,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.876867981866122
+    },
+    "Li20.0Sn2.0P4.0S24.0|137": {
+      "n_test": 3,
+      "mean_width": 3.8245856761932373,
+      "median_width": 3.8189849853515625,
+      "empirical_coverage": 0.6666666666666666,
+      "point_mae_proxy": 1.8452579750044495
+    },
+    "Li4.0P2.0S6.0|162": {
+      "n_test": 2,
+      "mean_width": 4.472489833831787,
+      "median_width": 4.472489833831787,
+      "empirical_coverage": 0.5,
+      "point_mae_proxy": 3.415813029167219
+    },
+    "Li6.0Hf12.0P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 4.024615287780762,
+      "median_width": 4.024615287780762,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.3847901868297767
+    },
+    "Li6.0Ge12.0P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.9663870334625244,
+      "median_width": 3.9663870334625244,
+      "empirical_coverage": 0.5,
+      "point_mae_proxy": 2.596547111907949
+    },
+    "Li6.0Ti12.0P18.0O72.0|167": {
+      "n_test": 4,
+      "mean_width": 4.237893104553223,
+      "median_width": 4.237893104553223,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.937813744295577
+    },
+    "Li7.2Al1.2Ge10.8P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 4.652110576629639,
+      "median_width": 4.652110576629639,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.9000505112304178
+    },
+    "Li9.0Al3.0Ge9.0P18.0O72.0|167": {
+      "n_test": 3,
+      "mean_width": 4.509342193603516,
+      "median_width": 4.509342193603516,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.5066160360570733
+    },
+    "Li7.2Al1.2Ti10.8P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.6007516384124756,
+      "median_width": 3.6007516384124756,
+      "empirical_coverage": 0.5,
+      "point_mae_proxy": 1.6124578760939225
+    },
+    "Li7.8Al1.8Ti10.2P18.0O72.0|167": {
+      "n_test": 5,
+      "mean_width": 3.783508777618408,
+      "median_width": 3.783508777618408,
+      "empirical_coverage": 0.8,
+      "point_mae_proxy": 1.4228459079158737
+    },
+    "Li8.4Al2.4Ti9.6P18.0O72.0|167": {
+      "n_test": 5,
+      "mean_width": 3.422606945037842,
+      "median_width": 3.422607183456421,
+      "empirical_coverage": 0.4,
+      "point_mae_proxy": 1.9284807919325757
+    },
+    "Li9.0Al3.0Ti9.0P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.663323402404785,
+      "median_width": 3.663323402404785,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.6656566569526479
+    },
+    "Li7.2Cr1.2Ti10.8P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.367610216140747,
+      "median_width": 3.367610216140747,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.6866985337972558
+    },
+    "Li7.8Cr1.8Ti10.2P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.3390462398529053,
+      "median_width": 3.3390462398529053,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.5956031789780443
+    },
+    "Li7.2Fe1.2Ti10.8P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.3676598072052,
+      "median_width": 3.3676598072052,
+      "empirical_coverage": 0.5,
+      "point_mae_proxy": 1.278144346928858
+    },
+    "Li7.8Fe1.8Ti10.2P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.302729845046997,
+      "median_width": 3.302729845046997,
+      "empirical_coverage": 0.5,
+      "point_mae_proxy": 1.4862405291776737
+    },
+    "Li7.2Sc1.2Ti10.8P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.281477928161621,
+      "median_width": 3.281477928161621,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.2381998038458544
+    },
+    "Li7.8Sc1.8Ti10.2P18.0O72.0|167": {
+      "n_test": 3,
+      "mean_width": 3.313065767288208,
+      "median_width": 3.313065767288208,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.2842965232710872
+    },
+    "Li7.2In1.2Ti10.8P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.376979112625122,
+      "median_width": 3.376979112625122,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.8264931642180893
+    },
+    "Li7.2La1.2Ti10.8P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.265791893005371,
+      "median_width": 3.265791893005371,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.9242697115682978
+    },
+    "Li7.8La1.8Ti10.2P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.265791893005371,
+      "median_width": 3.265791893005371,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.331975562505963
+    },
+    "Li7.8Al1.2Sc0.6Ti10.2P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.4602408409118652,
+      "median_width": 3.4602408409118652,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.1787610379062359
+    },
+    "Li7.8Al0.6Sc1.2Ti10.2P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.303548574447632,
+      "median_width": 3.303548574447632,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.1793309866898642
+    },
+    "Li6.6Al0.6Ti11.4P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.6682381629943848,
+      "median_width": 3.6682381629943848,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.6744767739905819
+    },
+    "Li7.8Al1.8Ge10.2P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 4.299666881561279,
+      "median_width": 4.299666881561279,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.6983964220571202
+    },
+    "Li9.6Al3.6Ge8.4P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 4.112488269805908,
+      "median_width": 4.112488269805908,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.1539960302698644
+    },
+    "Li7.8In1.8Hf10.2P18.0O72.0|167": {
+      "n_test": 2,
+      "mean_width": 3.4670844078063965,
+      "median_width": 3.4670844078063965,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.5761441721915284
+    },
+    "Li48.0Sr8.0La16.0Ta16.0O96.0|199": {
+      "n_test": 2,
+      "mean_width": 3.0769927501678467,
+      "median_width": 3.0769927501678467,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.720542540390845
+    },
+    "Li24.0P4.0S20.0Cl4.0|216": {
+      "n_test": 3,
+      "mean_width": 4.204290390014648,
+      "median_width": 4.29414701461792,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.366657465051107
+    },
+    "Li24.0P4.0S20.0Br4.0|216": {
+      "n_test": 4,
+      "mean_width": 3.8394217491149902,
+      "median_width": 3.831118106842041,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.1651438326153243
+    },
+    "Li24.0P4.0S20.0I4.0|216": {
+      "n_test": 3,
+      "mean_width": 3.80078125,
+      "median_width": 3.80078125,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.2353720015399101
+    },
+    "Li56.0La24.0Zr16.0O96.0|230": {
+      "n_test": 4,
+      "mean_width": 3.0591766834259033,
+      "median_width": 3.0591766834259033,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.0836112714574695
+    },
+    "Li40.0La24.0Ta16.0O96.0|230": {
+      "n_test": 4,
+      "mean_width": 3.1282410621643066,
+      "median_width": 3.1282410621643066,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.5485359556511944
+    },
+    "Li48.0Ba8.0La16.0Ta16.0O96.0|230": {
+      "n_test": 4,
+      "mean_width": 3.0744757652282715,
+      "median_width": 3.0744757652282715,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.21338897428638148
+    },
+    "Li54.4La24.0Zr14.4Ta1.6O96.0|230": {
+      "n_test": 2,
+      "mean_width": 3.021228313446045,
+      "median_width": 3.021228313446045,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.1723846489173726
+    },
+    "Li54.0La24.0Zr14.0Ta2.0O96.0|230": {
+      "n_test": 2,
+      "mean_width": 3.028749704360962,
+      "median_width": 3.028749704360962,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.390561893376188
+    },
+    "Li52.8La24.0Zr12.8Ta3.2O96.0|230": {
+      "n_test": 3,
+      "mean_width": 3.058610200881958,
+      "median_width": 3.058610200881958,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.2170226459959586
+    },
+    "Li48.0La24.0Zr8.0Ta8.0O96.0|230": {
+      "n_test": 2,
+      "mean_width": 3.0215015411376953,
+      "median_width": 3.0215015411376953,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.8911013644247312
+    },
+    "Li52.0La24.0Zr12.0Ta4.0O96.0|230": {
+      "n_test": 3,
+      "mean_width": 3.0743112564086914,
+      "median_width": 3.0743112564086914,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.3199495149842537
+    },
+    "Li40.0La24.0Bi16.0O96.0|230": {
+      "n_test": 2,
+      "mean_width": 3.2913691997528076,
+      "median_width": 3.2913691997528076,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.034882287579279136
+    },
+    "Li40.0La24.0Sb16.0O96.0|230": {
+      "n_test": 2,
+      "mean_width": 3.151555299758911,
+      "median_width": 3.151555299758911,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 0.7098400713425175
+    },
+    "Li48.0Ca8.0La16.0Ta16.0O96.0|230": {
+      "n_test": 2,
+      "mean_width": 3.054737091064453,
+      "median_width": 3.054737091064453,
+      "empirical_coverage": 1.0,
+      "point_mae_proxy": 1.126992983850645
+    }
+  },
+  "runtime_seconds": 3.1595799922943115
+}

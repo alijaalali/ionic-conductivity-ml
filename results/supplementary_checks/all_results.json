@@ -1,0 +1,106 @@
+{
+  "enrichment_bootstrap": {
+    "n_groups": 117,
+    "top_10pct": {
+      "bootstrap_median": 1.625,
+      "bootstrap_ci95_grouped": [
+        0.0,
+        3.444444444444444
+      ]
+    },
+    "top_20pct": {
+      "bootstrap_median": 1.6944444444444444,
+      "bootstrap_ci95_grouped": [
+        0.6197916666666666,
+        2.753472222222222
+      ]
+    },
+    "top_30pct": {
+      "bootstrap_median": 1.9606481481481481,
+      "bootstrap_ci95_grouped": [
+        1.3773148148148149,
+        2.5208333333333335
+      ]
+    }
+  },
+  "space_group_encoding": {
+    "paper_split": {
+      "n_test": 67,
+      "mae_numeric_sg": 2.6909106504510265,
+      "mae_onehot_sg": 2.6644544830022143
+    },
+    "leave_one_duplicate_group_out": {
+      "n_groups": 17,
+      "mae_numeric_sg": 0.7491875414470649,
+      "mae_onehot_sg": 0.6792703564923337
+    }
+  },
+  "nn_distances": {
+    "euclidean": {
+      "LGPS": {
+        "n": 36,
+        "median_nn_distance": 1.1180722747663556
+      },
+      "thio-LISICON": {
+        "n": 26,
+        "median_nn_distance": 5.979360681172792
+      },
+      "argyrodites": {
+        "n": 52,
+        "median_nn_distance": 5.38715003380994
+      },
+      "oxides": {
+        "n": 29,
+        "median_nn_distance": 5.953498445085742
+      },
+      "garnet": {
+        "n": 105,
+        "median_nn_distance": 1.3485695139433975
+      }
+    },
+    "cosine": {
+      "LGPS": {
+        "n": 36,
+        "median_nn_distance": 0.00644564859816027
+      },
+      "thio-LISICON": {
+        "n": 26,
+        "median_nn_distance": 0.1082385828960507
+      },
+      "argyrodites": {
+        "n": 52,
+        "median_nn_distance": 0.09711338044557155
+      },
+      "oxides": {
+        "n": 29,
+        "median_nn_distance": 0.2882468139071016
+      },
+      "garnet": {
+        "n": 105,
+        "median_nn_distance": 0.014168845763895432
+      }
+    },
+    "cityblock": {
+      "LGPS": {
+        "n": 36,
+        "median_nn_distance": 2.486415828606262
+      },
+      "thio-LISICON": {
+        "n": 26,
+        "median_nn_distance": 15.699009161410887
+      },
+      "argyrodites": {
+        "n": 52,
+        "median_nn_distance": 30.102388063747217
+      },
+      "oxides": {
+        "n": 29,
+        "median_nn_distance": 36.423509211902264
+      },
+      "garnet": {
+        "n": 105,
+        "median_nn_distance": 5.969299323469522
+      }
+    }
+  }
+}
